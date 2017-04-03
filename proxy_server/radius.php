@@ -25,7 +25,7 @@ if (isset($_GET['check'])) {
 		echo "Nessun user reggistrato";
 		exit();
 	}
-	echo "check Advamced user<br><br>";
+	echo "check Advanced user<br><br>";
 	for($a = 0; count($val) > $a; $a++) {
 		$ck = false;
 		echo $val[$a]['username']." => ";
