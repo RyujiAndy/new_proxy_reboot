@@ -1,6 +1,6 @@
 <?php
 $ip = "x.x.x.x";
-$conn = new mysqli("localhost", "radius", "", "radius");
+$conn = new mysqli("localhost", "radius", "", "password");
 function array_value_recursive($key, array $arr){
     $val = array();
     array_walk_recursive($arr, function($v, $k) use($key, &$val){
